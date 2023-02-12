@@ -1,6 +1,4 @@
-﻿using System.Collections.Generic;
-
-string[,] books =
+﻿string[,] books =
 {
     { "E. Hunt, D. Thomas", "John Sonmez", "Geoffrey Richter"},
     { "Charles Petzold", "Robert Martin", "Igor Savchuk"},

@@ -1,16 +1,19 @@
-﻿using System.Diagnostics.CodeAnalysis;
-
-int[] cucumbers = new int[8];
+﻿int[] cucumbers = new int[8];
 Console.WriteLine(cucumbers[0]);
 
 Random rand = new Random();
-
 
 Console.WriteLine(cucumbers.Length);
 for (int i = 0; i < cucumbers.Length; i++)
 {
     cucumbers[i] = rand.Next(0, 100);
     Console.WriteLine(cucumbers[i]);
+}
+
+string line = "Hello!";
+for (int i = line.Length - 1; i >= 0; i--)
+{
+    Console.WriteLine(line[i]);
 }
 
 Console.ReadKey();
@@ -89,6 +92,7 @@ Console.WriteLine(array2[0]);
 Console.ReadKey();
 Console.Clear();
 
+// array expansion
 int[] bag = new int[1];
 bag[0] = 1;
 int[] tempBag = new int[bag.Length + 1];
@@ -99,7 +103,7 @@ for (int i = 0; i < bag.Length; i++)
 }
 Console.WriteLine();
 bag = tempBag;
-for (int i =0; i < bag.Length; i++)
+for (int i = 0; i < bag.Length; i++)
 {
     Console.WriteLine(bag[i]);
 }
