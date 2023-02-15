@@ -3,7 +3,7 @@
     internal class Cart
     {
         private List<Product> _products = new List<Product>();
-        public Cart() 
+        public Cart()
         {
             _products.Add(new Product("Eggs"));
             _products.Add(new Product("Tomatoes"));
@@ -13,7 +13,7 @@
 
         public void ShowProducts()
         {
-            foreach (Product product in _products) 
+            foreach (Product product in _products)
             {
                 Console.WriteLine(product.Name);
             }
