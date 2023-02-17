@@ -2,7 +2,7 @@
 {
     internal class NonPlayerCharacter
     {
-        public abstract void ShowDescription()
+        public virtual void ShowDescription()
         {
             Console.WriteLine("I am simple npc. I can only walk.");
         }

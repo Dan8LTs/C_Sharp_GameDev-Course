@@ -13,3 +13,4 @@ foreach (var character in characters)
     character.ShowDescription();
     Console.WriteLine(new string('-', 62));
 }
+

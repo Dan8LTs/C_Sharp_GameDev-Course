@@ -10,3 +10,13 @@ Console.WriteLine(Convert.ToInt16(trigger));
 
 Console.WriteLine(Convert.ToSingle(5) / 2);
 Console.WriteLine(Convert.ToBoolean(1));
+
+int a = 18;
+long b = a;
+
+float f = 5.3f;
+double d = f;
+Console.WriteLine(d);
+
+long l = long.MaxValue;
+Console.WriteLine((int)l);
